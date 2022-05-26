@@ -1,0 +1,607 @@
+/****** Changes Everything ******/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#body {
+    font-family: Share Tech Mono, Monospace;
+    background-color: #1B221C;
+    color: #15FA36;
+    max-width: 1200px;
+    margin: auto;
+}
+
+@media (max-width:1200px) {
+    #body {
+        max-width: 1200px;
+    }
+}
+
+/****** Categories Bold ******/
+h3 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #FFDCDC;
+}
+
+@media (max-width:1200px) {
+    h3 {
+        font-size: 25px;
+    }
+}
+
+/*** h3 Media End ***/
+
+/****** Hypertext color settings ******/
+a:link {
+    color: #FFDCDC;
+}
+
+a:visited {
+    color: #FF8786;
+}
+
+a:hover {
+    color: #FF0E0D;
+}
+
+/****** Header + Nav Bar ******/
+#header {
+    position: fixed;
+    top: 0;
+    min-height: 120px;
+    width: 1200px;
+    background-color: #434343;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+#top-line {
+    display: flex;
+    margin-left: 240px;
+}
+
+.logo-img {
+    display: flex;
+    height: 50px;
+    width: 50px;
+    margin-right: 30px;
+    margin-left: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 25px;
+}
+
+#nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+#title {
+    font-size: 50px;
+}
+
+#features-button {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 30px;
+}
+
+#gameplay-button {
+    padding-right: 50px;
+    font-size: 30px;
+}
+
+#screenshots-button {
+    padding-right: 50px;
+    font-size: 30px;
+}
+
+#additional-info-button {
+    padding-right: 50px;
+    font-size: 30px;
+}
+
+@media (max-width: 1200px) {
+    #header {
+        position: fixed;
+        top: 0;
+        min-height: 120px;
+        max-width: 100%;
+        background-color: #434343;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+
+    #top-line {
+        text-align: center;
+        margin: auto;
+    }
+
+    .logo-img {
+        display: flex;
+        height: 50px;
+        width: 50px;
+        margin-right: 5px;
+        margin-left: 5px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: black;
+        border-radius: 25px;
+    }
+
+    #nav-bar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        list-style-type: none;
+        align-items: center;
+    }
+
+    #title {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    #features-button {
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 20px;
+    }
+
+    #gameplay-button {
+        padding-right: 20px;
+        font-size: 20px;
+    }
+
+    #screenshots-button {
+        padding-right: 20px;
+        font-size: 20px;
+    }
+
+    #additional-info-button {
+        padding-right: 20px;
+        font-size: 20px;
+    }
+
+}
+
+/*** Header Media End***/
+
+@media (max-width: 600px) {
+    #header {
+        position: fixed;
+        top: 0;
+        min-height: 80px;
+        max-width: 100%;
+        background-color: #434343;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+
+    #top-line {
+        text-align: center;
+        margin: auto;
+    }
+
+    .logo-img {
+        display: flex;
+        height: 35px;
+        width: 35px;
+        margin-right: 5px;
+        margin-left: 5px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: black;
+        border-radius: 25px;
+    }
+
+    #nav-bar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        list-style-type: none;
+        align-items: center;
+    }
+
+    #title {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    #features-button {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 15px;
+    }
+
+    #gameplay-button {
+        padding-right: 10px;
+        font-size: 15px;
+    }
+
+    #screenshots-button {
+        padding-right: 10px;
+        font-size: 15px;
+    }
+
+    #additional-info-button {
+        padding-right: 10px;
+        font-size: 15px;
+    }
+
+}
+
+/*** Header Media End***/
+
+/****** Header and Nav ******/
+
+/****** Ultra-wide ******/
+
+#uw-images {
+    margin-top: 150px;
+    background-color: #1B221C;
+    display: flex;
+    flex-direction: row;
+}
+
+.ultra-wide {
+    width: 600px;
+    height: 251px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+@media (max-width:1200px) {
+    #uw-images {
+        margin: auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #uw1 {
+        margin-top: 130px;
+        width: 595px;
+        height: 251px;
+    }
+
+    #uw2 {
+        margin-top: 10px;
+        width: 595px;
+        height: 251px;
+    }
+}
+
+/*** UW Media End ***/
+
+@media (max-width:600px) {
+    #uw-images {
+        margin: auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #uw1 {
+        margin-top: 130px;
+        width: 400px;
+        height: 168px;
+    }
+
+    #uw2 {
+        margin-top: 10px;
+        width: 400px;
+        height: 168px;
+    }
+}
+
+/*** UW Media End ***/
+
+/****** Ultra-wide ******/
+
+/****** Features ******/
+#features {
+    padding-top: 10px;
+    line-height: 40px;
+    font-size: 25px;
+    list-style-type: none;
+}
+
+.feature-list {
+    list-style-type: none;
+}
+
+#list1 {
+    padding-bottom: 25px;
+}
+
+#list2 {
+    padding-bottom: 25px;
+}
+
+#list3 {
+    padding-bottom: 25px;
+}
+
+#list4 {
+    padding-bottom: 25px;
+}
+
+#list5 {
+    padding-bottom: 25px;
+}
+
+#list6 {
+    padding-bottom: 25px;
+}
+
+#list7 {
+    padding-bottom: 25px;
+}
+
+#list8 {
+    padding-bottom: 25px;
+}
+
+@media (max-width: 1200px) {
+    #features {
+        font-size: 17px;
+        max-width: 600px;
+        margin: auto;
+    }
+
+    #list1 {
+        padding-bottom: 15px;
+    }
+
+    #list2 {
+        padding-bottom: 15px;
+    }
+
+    #list3 {
+        padding-bottom: 15px;
+    }
+
+    #list4 {
+        padding-bottom: 15px;
+    }
+
+    #list5 {
+        padding-bottom: 15px;
+    }
+
+    #list6 {
+        padding-bottom: 15px;
+    }
+
+    #list7 {
+        padding-bottom: 15px;
+    }
+
+    #list8 {
+        padding-bottom: 15px;
+    }
+
+}
+
+/*** Features Media End ***/
+
+/****** Features ******/
+
+/****** Trailers ******/
+
+#video {
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#video2 {
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+@media (max-width: 1200px) {
+    #gameplay {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #video {
+        width: 575px;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    #video2 {
+        width: 575px;
+        margin: auto;
+    }
+}
+
+@media (max-width: 600px) {
+    #gameplay {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #video {
+        width: 400px;
+        height: 224px;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    #video2 {
+        width: 400px;
+        height: 224px;
+        margin: auto;
+    }
+}
+
+/****** Trailers ******/
+
+/****** Screenshots ******/
+
+#image-grid {
+    display: flex;
+}
+
+.image-square {
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    width: 112px;
+    height: 112px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+#screenshot-source {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+
+@media (max-width: 1200px) {
+    #screenshots {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #image-grid {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 600px;
+        justify-content: center;
+    }
+
+    .image-square {
+        margin: 2px;
+    }
+
+    #screenshot-source {
+        font-size: 15px;
+    }
+}
+
+/*** Screenshot Media end ***/
+
+/****** Screenshots ******/
+
+/****** Addl Info ******/
+
+#additional-info {
+    text-align: center;
+}
+
+#addl-info {
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+
+#form {
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+#email {
+    width: 400px;
+    height: 25px;
+    font-size: 17px;
+}
+
+#external-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.web-link {
+    list-style-type: none;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 25px;
+}
+
+@media (max-width: 1200px) {
+    #addl-info {
+        font-size: 20px;
+    }
+
+    #form {
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+
+    #email {
+        width: 300px;
+        height: 20px;
+        font-size: 12px;
+    }
+
+    .web-link {
+        list-style-type: none;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: 20px;
+    }
+
+}
+
+/*** Addl Info Media End ***/
+
+/****** Addl Info ******/
+
+/****** Footer ******/
+
+#bottom-info {
+    background-color: #434343;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    max-width: 1200px;
+    margin-top: 15px;
+}
+
+.no-bullet {
+    list-style-type: none;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+@media (max-width: 1200px) {
+    #bottom-info {
+        background-color: #434343;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        max-width: 600px;
+        margin: auto;
+        margin-top: 10px;
+    }
+}
+    /*** Footer Media End ***/
+
+    /****** Footer ******/
